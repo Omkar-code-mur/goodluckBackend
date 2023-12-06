@@ -1,0 +1,6 @@
+{
+    "version":2,
+    "name" : "goodlucksoda backend",
+    "builds" : [{ "src": "index.js", "use": "@vercel/node" }],
+    "routes" : [{ "src": "/(.*)", "use": "@vercel/node" }]
+}
